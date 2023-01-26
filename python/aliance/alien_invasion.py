@@ -11,8 +11,7 @@ class AlienInvasion:
         self.settings.screen_height = self.screen.get_rect().height
         pygame.display.set_caption("AlienInvasion")
         self.ship = Ship(self)
-
-
+###
     def run_game(self):
         self.screen.fill(self.settings.bg_color)
         while True:
